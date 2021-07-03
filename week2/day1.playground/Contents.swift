@@ -55,3 +55,28 @@ squared = (num * (num + 1) * (2 * num + 1)) / 6
 result = sum * sum - squared
 
 print(result)
+
+/*
+ Project Euler 7
+ 
+ By listing the first six prime numbers: 2, 3, 5, 7, 11, and 13, we can see that the 6th prime is 13.
+
+ What is the 10 001st prime number?
+ */
+
+var numPrimes = 1;
+var numm = 1;
+ 
+while (numPrimes < 10001) {
+    numm = numm + 2
+    if (num.isPrime()) {
+        numPrimes += 1
+    }
+}
+
+
+/*
+ Swift gives us an alternative to if let called guard let, which also unwraps optionals if they contain a value,
+ but works slightly differently: guard let is designed to exit the current function, loop, or condition if the
+ check fails, so any values you unwrap using it will stay around after the check.
+ */
