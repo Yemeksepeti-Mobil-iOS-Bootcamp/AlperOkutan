@@ -19,6 +19,11 @@ class NotificationSenderVC: UIViewController {
 
     //MARK: Gönderilecek Data Kullanıcıdan Alınsın...
     //MARK: frame vs bound farkı nedir? Açıklayınız..
+    
+    /*
+     Frame: Specifies the location and dimensions of the selected view according to the coordinate system inside the superview.
+     Bound: It specifies the location and dimensions of the selected view according to the coordinate system within itself.
+     */
 
     @IBOutlet weak var nameTextField: UITextField!
     @IBAction func sendNotificationBtn(_ sender: Any) {
