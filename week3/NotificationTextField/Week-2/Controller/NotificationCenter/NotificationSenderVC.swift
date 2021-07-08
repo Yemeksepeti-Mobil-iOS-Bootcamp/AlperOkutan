@@ -20,9 +20,10 @@ class NotificationSenderVC: UIViewController {
     //MARK: Gönderilecek Data Kullanıcıdan Alınsın...
     //MARK: frame vs bound farkı nedir? Açıklayınız..
 
+    @IBOutlet weak var nameTextField: UITextField!
     @IBAction func sendNotificationBtn(_ sender: Any) {
-        
-        notificationData["name"] = "Gizem"
+        guard let text = nameTextField.text else { return }
+        notificationData["name"] = text
         
         NotificationCenter.default.post(name: .sendDataNotification, object: nil, userInfo: notificationData)
         dismiss(animated: true, completion: nil)
