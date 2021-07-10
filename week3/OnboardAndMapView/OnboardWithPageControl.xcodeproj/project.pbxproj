@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E10A858269975C100AE450B /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E10A857269975C100AE450B /* MapViewController.swift */; };
 		4EDCAEE82698F389002B5E19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDCAEE72698F389002B5E19 /* AppDelegate.swift */; };
 		4EDCAEEA2698F389002B5E19 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDCAEE92698F389002B5E19 /* SceneDelegate.swift */; };
 		4EDCAEEC2698F389002B5E19 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EDCAEEB2698F389002B5E19 /* ViewController.swift */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4E10A857269975C100AE450B /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		4EDCAEE42698F389002B5E19 /* OnboardWithPageControl.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OnboardWithPageControl.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EDCAEE72698F389002B5E19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4EDCAEE92698F389002B5E19 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -39,6 +41,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4E10A856269974AA00AE450B /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				4E10A857269975C100AE450B /* MapViewController.swift */,
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
 		4EDCAEDB2698F389002B5E19 = {
 			isa = PBXGroup;
 			children = (
@@ -58,6 +68,7 @@
 		4EDCAEE62698F389002B5E19 /* OnboardWithPageControl */ = {
 			isa = PBXGroup;
 			children = (
+				4E10A856269974AA00AE450B /* MapView */,
 				4EDCAEFB2698F3F4002B5E19 /* PageViewController */,
 				4EDCAEE72698F389002B5E19 /* AppDelegate.swift */,
 				4EDCAEE92698F389002B5E19 /* SceneDelegate.swift */,
@@ -151,6 +162,7 @@
 				4EDCAEEC2698F389002B5E19 /* ViewController.swift in Sources */,
 				4EDCAEE82698F389002B5E19 /* AppDelegate.swift in Sources */,
 				4EDCAEEA2698F389002B5E19 /* SceneDelegate.swift in Sources */,
+				4E10A858269975C100AE450B /* MapViewController.swift in Sources */,
 				4EDCAEFD2698F4A5002B5E19 /* PageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
